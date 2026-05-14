@@ -1,24 +1,24 @@
 class Ireview < Formula
   desc "Browser-based local diff review for AI-generated changes"
   homepage "https://github.com/suhothayan/iReview"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/suhothayan/iReview/releases/download/v0.2.0/ireview-macos-arm64"
-      sha256 "230c43726f71adb1a23d8abe497197f779659f29f6c54cc3675f72770d42f1c7"
+      url "https://github.com/suhothayan/iReview/releases/download/v0.3.0/ireview-macos-arm64"
+      sha256 "b7dac21a236a356a5500b7a13aef0ab993b7904f22ced875d1506c241aa202ee"
     end
     on_intel do
-      url "https://github.com/suhothayan/iReview/releases/download/v0.2.0/ireview-macos-x64"
-      sha256 "7a0242eac61ca0812ae1978377ae751157a27773d5742484a7d36988b6400e5f"
+      url "https://github.com/suhothayan/iReview/releases/download/v0.3.0/ireview-macos-x64"
+      sha256 "b51df08dbed70380266e7bcaaf11ec6db0d52ca54e0d1bd526fe430f4f6cefcd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/suhothayan/iReview/releases/download/v0.2.0/ireview-linux-x64"
-      sha256 "8561a4a8c15c595d7ccc11e23060bb9809cef4c13f751ab8dd05a6b86c251d7d"
+      url "https://github.com/suhothayan/iReview/releases/download/v0.3.0/ireview-linux-x64"
+      sha256 "28a117856e7fbad0d033cb9ffc56e35908468467d64ec8fdc98dd80b48b25f29"
     end
   end
 
